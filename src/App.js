@@ -1,26 +1,42 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './css/main.css';
+//import './css/fontaswesome-all.min.css';
+import './css/noscript.css';
+import FadeIn from 'react-fade-in';
+import * as Scroll from 'react-scroll';
+import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+
+
+import Header from './Header';
+import Navbar from './Navbar';
+import Skills from './Skills';
+import Projects from './Projects';
+import Resume from './Resume';
+import Footer from './Footer';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="wrapper">
+      <FadeIn transitionDuration={900}>
+        <Header />
+      </FadeIn>
+      <Navbar />
+      <div id="main">
+        <Skills />
+        <Projects />
+        <Resume />
+      </div>
+      <footer id = "footer">
+        <Footer/>
+      </footer>
+
+
     </div>
   );
 }
+
+
+
 
 export default App;
