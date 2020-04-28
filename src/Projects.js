@@ -19,7 +19,7 @@ function Projects() {
                 <li>
                     <span class="fas fa-pizza-slice fa-7x"></span>
                     <h3>Foodcore</h3>
-                    <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                    <p>Made in ASP.Net Core MVC ERP web application for gastronomy.</p>
                     <ul class="icons">
                         <li><a href="https://github.com/kkulis" className="icon fa-file alt"><span class="label"></span></a></li>
                     </ul>

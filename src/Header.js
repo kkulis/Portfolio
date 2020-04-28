@@ -19,8 +19,10 @@ function Header() {
 								<li><a href="https://www.facebook.com/krzysiek.kulig.5/" className="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
 								<li><a href="https://www.instagram.com/krzysiekkulig/" className="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
 								<li><a href="https://github.com/kkulis" className="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+                <li><a href="https://www.linkedin.com/in/krzysztof-kulig-3965781a5/" className="icon brands fa-linkedin alt"><span class="label">LinkedIn</span></a></li>
                 <li><a href="https://soundcloud.com/krzysiekkulig" className="icon brands fa-soundcloud alt"><span class="label">SoundCloud</span></a></li>
                 <li><a href="https://www.youtube.com/channel/UCkcHCpxgdjlnSFg8u3RTVmg" className="icon brands fa-youtube alt"><span class="label">YouTube</span></a></li>
+                
 							</ul>    
         </header>
       </div>
