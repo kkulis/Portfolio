@@ -2739,6 +2739,7 @@ ul.icons {
     cursor: default;
     list-style: none;
     padding-left: 0;
+    padding-right: 45px;
 }
 
 ul.icons li {

@@ -3,8 +3,8 @@ import React from 'react';
 function Skills() {
     return (
         <section id="skills" className="main">
-            <div class="spotlight">
-                <div class="content">
+            <div className="spotlight">
+                <div className="content">
                     <header class="major">
                         <h2>Skills</h2>
                     </header>
