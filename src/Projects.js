@@ -1,4 +1,5 @@
 import React from 'react';
+import './Projects.css';
 
 function Projects() {
     return (
@@ -14,7 +15,7 @@ function Projects() {
                         ASP.NET Core MVC web application with React.js views.
                         Made to save trainings progress.
                     </p>
-                    <ul class="icons">
+                    <ul id="one-icon" class="icons">
                         <li>
                             <a
                                 href="https://github.com/kkulis/TrainingsDiary"
@@ -32,10 +33,10 @@ function Projects() {
                         Made in ASP.Net Core MVC ERP web application for
                         gastronomy.
                     </p>
-                    <ul class="icons">
+                    <ul id="one-icon" class="icons">
                         <li>
                             <a
-                                href="https://github.com/kkulis"
+                                href="https://foodcore.pl/"
                                 className="icon fa-file alt"
                             >
                                 <span class="label"></span>
@@ -51,7 +52,10 @@ function Projects() {
                         player is trying to guess what is being displayed on his
                         forehead.
                     </p>
-                    <ul class="icons">
+                    <ul
+                        class="icons"
+                        style={{ display: 'flex', justifyContent: 'center' }}
+                    >
                         <li>
                             <a
                                 href="https://github.com/kkulis/Heads_up"
@@ -60,7 +64,7 @@ function Projects() {
                                 <span class="label">GitHub</span>
                             </a>
                         </li>
-                        <li>
+                        <li style={{ marginTop: '0px' }}>
                             <a
                                 href="https://determined-pasteur-26d36e.netlify.com/"
                                 className="icon fa-file alt"
@@ -74,7 +78,7 @@ function Projects() {
                     <span className="fas fa-file-alt fa-7x"></span>
                     <h3>Targetly home page</h3>
                     <p>Home page made for IT Consulting company.</p>
-                    <ul class="icons">
+                    <ul id="one-icon" class="icons">
                         <li>
                             <a
                                 href="https://stupefied-banach-58fe1a.netlify.app/"

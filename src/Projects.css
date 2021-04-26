@@ -1,0 +1,9 @@
+#one-icon {
+    margin-right: 50px;
+}
+
+@media only screen and (max-width: 730px) {
+    #one-icon {
+        margin-right: 0px;
+    }
+}
