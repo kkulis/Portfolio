@@ -1,7 +1,6 @@
 import React from 'react';
 import './css/main.css';
 import './css/noscript.css';
-import FadeIn from 'react-fade-in';
 
 import Header from './Header';
 import Navbar from './Navbar';
@@ -13,9 +12,7 @@ import Footer from './Footer';
 function App() {
     return (
         <div id="wrapper">
-            <FadeIn transitionDuration={900}>
-                <Header />
-            </FadeIn>
+            <Header />
             <Navbar />
             <div id="main">
                 <Skills />
