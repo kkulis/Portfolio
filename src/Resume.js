@@ -8,9 +8,10 @@ function Resume() {
             </header>
             <footer className="major">
                 <a
-                    href="https://drive.google.com/file/d/10AFBbj4QCiV9Xc-DMlgLhL32aPL7lqN9/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1oafBlKZLXqLJBKx18HxhdJ3uD__cS2KZ/view?usp=sharing"
                     download
                     className="button primary"
+                    target="_blank"
                 >
                     Download
                 </a>
