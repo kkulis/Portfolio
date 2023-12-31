@@ -20,6 +20,7 @@ function Projects() {
                             <a
                                 href="https://github.com/kkulis/TrainingsDiary"
                                 className="icon brands fa-github alt"
+                                target="_blank"
                             >
                                 <span class="label">GitHub</span>
                             </a>
@@ -34,14 +35,6 @@ function Projects() {
                         gastronomy.
                     </p>
                     <ul id="one-icon" class="icons">
-                        <li>
-                            <a
-                                href="https://foodcore.pl/"
-                                className="icon fa-file alt"
-                            >
-                                <span class="label"></span>
-                            </a>
-                        </li>
                     </ul>
                 </li>
                 <li>
@@ -60,16 +53,9 @@ function Projects() {
                             <a
                                 href="https://github.com/kkulis/Heads_up"
                                 className="icon brands fa-github alt"
+                                target="_blank"
                             >
                                 <span class="label">GitHub</span>
-                            </a>
-                        </li>
-                        <li style={{ marginTop: '0px' }}>
-                            <a
-                                href="https://determined-pasteur-26d36e.netlify.com/"
-                                className="icon fa-file alt"
-                            >
-                                <span class="label">Page</span>
                             </a>
                         </li>
                     </ul>
@@ -83,6 +69,7 @@ function Projects() {
                             <a
                                 href="https://stupefied-banach-58fe1a.netlify.app/"
                                 className="icon fa-file alt"
+                                target="_blank"
                             >
                                 <span class="label">Page</span>
                             </a>
