@@ -1,6 +1,5 @@
 import React from 'react';
-import * as Scroll from 'react-scroll';
-import { animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import { scroller } from 'react-scroll';
 
 class Navbar extends React.Component {
     scrollToSkills = () => {
