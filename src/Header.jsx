@@ -1,5 +1,5 @@
 import React from 'react';
-import avatar from './portfolio_image.jpg';
+import avatar from './portfolio_image.jpeg';
 
 export const Header = () => (
     <div>
