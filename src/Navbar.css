@@ -1,0 +1,33 @@
+#nav {
+    width: 100%;
+    position: static;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #636363;
+    padding: 1em;
+    background-color: #f7f7f7;
+    cursor: default;
+    text-align: center;
+
+    ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+
+        li {
+            margin: 0 10px;
+
+            a {
+                border: 0;
+                border-radius: 8px;
+                padding: 10px;
+            }
+
+            a:hover {
+                color: #636363;
+                background-color: rgba(222, 222, 222, 0.25);
+            }
+        }
+    }
+}
