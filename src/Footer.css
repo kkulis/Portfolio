@@ -1,0 +1,14 @@
+#footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+
+    .copyright {
+        margin: 0;
+
+        p {
+            font-size: 14px;
+            margin: 0;
+        }
+    }
+}

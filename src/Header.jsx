@@ -1,3 +1,4 @@
+import './Header.css';
 import React from 'react';
 import avatar from './portfolio_image.jpeg';
 
@@ -5,7 +6,7 @@ export const Header = () => (
     <div>
         <header id="header" className="alt">
             <span className="logo">
-                <img src={avatar} alt=""></img>
+                <img src={avatar} alt="avatar"></img>
             </span>
             <h1>Krzysiek Kulig</h1>
             <p>

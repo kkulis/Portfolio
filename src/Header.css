@@ -1,0 +1,39 @@
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+
+    .logo img {
+        display: block;
+        margin: 0 auto;
+        border-radius: 50%;
+        width: 35%;
+        height: 25%;
+    }
+
+    h1 {
+        font-size: 40px;
+        padding: 10px;
+        margin: 0;
+    }
+
+    p {
+        font-size: 18px;
+        padding: 10px;
+        margin: 0px;
+    }
+
+    .icons {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        margin: 0;
+
+        li {
+            padding: 5px;
+        }
+    }
+}

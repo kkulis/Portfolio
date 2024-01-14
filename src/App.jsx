@@ -17,8 +17,6 @@ export const App = () => (
             <Projects />
             <Resume />
         </div>
-        <footer id="footer">
-            <Footer />
-        </footer>
+        <Footer />
     </div>
 );
