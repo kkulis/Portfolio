@@ -7,6 +7,19 @@
         padding: 80px;
         border-top: solid 1px #dddddd;
     }
+
+    .icon.alt {
+        border-color: #dddddd;
+        color: #636363;
+    }
+
+    .icon.alt:hover {
+        background-color: rgba(222, 222, 222, 0.25);
+    }
+
+    .icon.alt:active {
+        background-color: rgba(222, 222, 222, 0.5);
+    }
 }
 
 #main h1,
