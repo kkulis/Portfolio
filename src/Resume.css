@@ -1,0 +1,29 @@
+#resume {
+    button,
+    .button {
+        border-radius: 8px;
+        border: 0;
+        cursor: pointer;
+        display: inline-block;
+        font-weight: 300;
+        height: 2.75em;
+        line-height: 2.75em;
+        min-width: 9.25em;
+        padding: 0 1.5em;
+        text-align: center;
+        text-decoration: none;
+        white-space: nowrap;
+    }
+
+    button.primary,
+    .button.primary {
+        background-color: #8cc9f0;
+        color: #ffffff !important;
+        box-shadow: none;
+    }
+
+    button.primary:hover,
+    .button.primary:hover {
+        background-color: #9acff2;
+    }
+}
