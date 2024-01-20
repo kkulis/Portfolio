@@ -1,3 +1,4 @@
+import './../styles/Skills.css';
 import React from 'react';
 
 export const Skills = () => (

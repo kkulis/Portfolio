@@ -1,0 +1,7 @@
+@media screen and (max-width: 736px) {
+    #skills {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}

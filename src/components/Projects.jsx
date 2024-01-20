@@ -7,7 +7,7 @@ export const Projects = () => (
             <h2>Projects</h2>
         </header>
         <ul className="features">
-            <li>
+            <li className="project">
                 <span className="fas fa-dumbbell fa-7x"></span>
                 <h3>Training Diary</h3>
                 <p>
@@ -27,7 +27,7 @@ export const Projects = () => (
                     </li>
                 </ul>
             </li>
-            <li>
+            <li className="project">
                 <span className="fas fa-pizza-slice fa-7x"></span>
                 <h3>Foodcore</h3>
                 <p>
@@ -35,7 +35,7 @@ export const Projects = () => (
                 </p>
                 <ul id="one-icon" className="icons"></ul>
             </li>
-            <li>
+            <li className="project">
                 <span className="fas fa-id-card fa-7x"></span>
                 <h3>Heads Up!</h3>
                 <p>
@@ -58,7 +58,7 @@ export const Projects = () => (
                     </li>
                 </ul>
             </li>
-            <li>
+            <li className="project">
                 <span className="fas fa-file-alt fa-7x"></span>
                 <h3>Targetly home page</h3>
                 <p>Home page made for IT Consulting company.</p>
