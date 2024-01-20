@@ -1,6 +1,6 @@
-import './Header.css';
+import './../styles/Header.css';
 import React from 'react';
-import avatar from './portfolio_image.jpeg';
+import avatar from './../images/portfolio_image.jpeg';
 
 export const Header = () => (
     <div>

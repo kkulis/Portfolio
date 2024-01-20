@@ -1,5 +1,5 @@
 import React from 'react';
-import './Projects.css';
+import './../styles/Projects.css';
 
 export const Projects = () => (
     <section id="projects" className="main special">
