@@ -523,7 +523,7 @@ ul.icons {
 
 ul.icons li {
     display: inline-block;
-    padding: 0 0.65em 0 0;
+    padding: 0 0 0 0;
 }
 
 /* Section/Article */
@@ -531,10 +531,6 @@ ul.icons li {
 section.special,
 article.special {
     text-align: center;
-}
-
-header.major {
-    margin-bottom: 3em;
 }
 
 header.major h2 {
@@ -575,25 +571,32 @@ footer.major {
 }
 
 @media screen and (max-width: 736px) {
-    header.major {
-        margin-bottom: 0;
-    }
+    #main {
+        .main {
+            padding: 40px;
+            border-top: solid 1px #dddddd;
 
-    header.major h2 {
-        font-size: 1.5em;
-    }
+            header.major {
+                margin-bottom: 0;
+            }
 
-    header.major p {
-        font-size: 1em;
-        letter-spacing: 0;
-    }
+            header.major h2 {
+                font-size: 1.5em;
+            }
 
-    header.major p br {
-        display: none;
-    }
+            header.major p {
+                font-size: 1em;
+                letter-spacing: 0;
+            }
 
-    footer.major {
-        margin-top: 0;
+            header.major p br {
+                display: none;
+            }
+
+            footer.major {
+                margin-top: 0;
+            }
+        }
     }
 }
 
