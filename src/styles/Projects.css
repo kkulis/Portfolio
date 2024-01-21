@@ -10,28 +10,25 @@
     list-style: none;
 
     .project {
+        width: calc(33.33333% - 2em);
+        padding: 20px;
+        margin: 10px;
         border: 1px solid lightgray;
         border-radius: 6px;
         box-shadow: 4px 4px 2px 1px #f2f2f2;
-    }
-}
 
-.features li {
-    width: calc(33.33333% - 2em);
-    padding: 20px;
-    margin: 10px;
+        h3 {
+            margin: 20px 0;
+        }
 
-    h3 {
-        margin: 20px 0;
-    }
-
-    p {
-        margin-bottom: 10px;
+        p {
+            margin-bottom: 10px;
+        }
     }
 }
 
 @media screen and (max-width: 980px) {
-    .features li {
+    .features .project {
         width: calc(50% - 2em);
     }
 }
@@ -39,10 +36,10 @@
 @media screen and (max-width: 736px) {
     .features {
         width: 100%;
-        margin: 0 0 2em 0;
-    }
+        margin: 10px;
 
-    .features li {
-        width: 100%;
+        .project {
+            width: 100%;
+        }
     }
 }
