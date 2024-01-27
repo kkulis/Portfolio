@@ -9,7 +9,7 @@ export const Skills = () => (
                     <h2>Skills</h2>
                 </header>
                 <h4 style={{ fontWeight: 'bold' }}>Frontend</h4>
-                <p>React.js, Typescript, Web Workers, IndexedDb</p>
+                <p>React.js, TypeScript, Web Workers, IndexedDb</p>
                 <h4 style={{ fontWeight: 'bold' }}>.NET</h4>
                 <p>C#, ASP.NET, Entity Framework, SQL</p>
                 <h4 style={{ fontWeight: 'bold' }}>AWS</h4>

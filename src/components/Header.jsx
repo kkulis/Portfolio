@@ -10,7 +10,7 @@ export const Header = () => (
             </span>
             <h1>Krzysiek Kulig</h1>
             <p>
-                Frontend-prefering full stack developer. Image processing
+                Frontend-preferring full stack developer. Image processing
                 passionate with a weakness for python.
             </p>
             <ul className="icons">
