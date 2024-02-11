@@ -6,16 +6,17 @@ import { Projects } from './Projects';
 import { Resume } from './Resume';
 import { Footer } from './Footer';
 import { Header } from './Header';
+import { ContentWrapper } from './ContentWrapper';
 
 export const App = () => (
     <div id="wrapper">
         <Header />
         <Navbar />
-        <div id="main">
+        <ContentWrapper>
             <Skills />
             <Projects />
             <Resume />
-        </div>
+        </ContentWrapper>
         <Footer />
     </div>
 );

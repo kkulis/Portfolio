@@ -607,6 +607,7 @@ header.major h2:after {
 /* Wrapper */
 
 #wrapper {
+    overflow-x: hidden;
     width: 64em;
     max-width: calc(100% - 4em);
     margin: 0 auto;
