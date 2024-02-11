@@ -6,7 +6,10 @@ export const Header = () => {
     const [isLoaded, setIsLoaded] = useState(false);
 
     useEffect(() => {
-        setIsLoaded(true);
+        // Wait a moment before animation starts.
+        setTimeout(() => {
+            setIsLoaded(true);
+        }, 10);
     }, []);
 
     return (
