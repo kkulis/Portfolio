@@ -16,12 +16,12 @@ export const Navbar = () => {
         });
     };
 
-    const scrollToProjects = () => {
-        scroller.scrollTo('projects', {
-            duration: 700,
-            smooth: true
-        });
-    };
+    // const scrollToProjects = () => {
+    //     scroller.scrollTo('projects', {
+    //         duration: 700,
+    //         smooth: true
+    //     });
+    // };
 
     const scrollToResume = () => {
         scroller.scrollTo('resume', {
@@ -35,9 +35,9 @@ export const Navbar = () => {
                 <li>
                     <a onClick={scrollToSkills}>Skills</a>
                 </li>
-                <li>
+                {/* <li>
                     <a onClick={scrollToProjects}>Projects</a>
-                </li>
+                </li> */}
                 <li>
                     <a onClick={scrollToResume}>Resume</a>
                 </li>
