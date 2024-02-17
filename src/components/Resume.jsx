@@ -8,7 +8,7 @@ export const Resume = () => (
         </header>
         <footer className="major">
             <a
-                href="https://drive.google.com/file/d/1oafBlKZLXqLJBKx18HxhdJ3uD__cS2KZ/view?usp=sharing"
+                href="https://drive.google.com/file/d/1e1jbCspOZU8rDHVV9m5evvmKhCkfOo5k/view?usp=sharing"
                 download
                 className="button primary"
                 target="_blank"
