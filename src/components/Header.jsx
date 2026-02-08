@@ -20,8 +20,11 @@ export const Header = () => {
                 </div>
                 <h1>Krzysiek Kulig</h1>
                 <p>
-                    Frontend-preferring full stack developer. Image processing
-                    passionate with a weakness for python.
+                    Software developer turned AI engineer with an eye for
+                    aesthetics. Went from crafting pixel-perfect frontends to
+                    exploring the inner workings of transformer models. When I'm
+                    not coding, I'm probably on a bike, on a mat, or lost in a
+                    heavy riff.
                 </p>
                 <ul className="icons">
                     <li>
