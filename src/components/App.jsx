@@ -13,8 +13,6 @@ export const App = () => (
         <Navbar />
         <ContentWrapper>
             <Skills />
-            {/* Projects section remove */}
-            {/* <Projects /> */}
             <Resume />
         </ContentWrapper>
         <Footer />
