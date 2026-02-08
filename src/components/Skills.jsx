@@ -8,22 +8,20 @@ export const Skills = () => (
                 <header className="major">
                     <h2>Skills</h2>
                 </header>
+                <h4 style={{ fontWeight: 'bold' }}>AI & Machine Learning</h4>
+                <p>
+                    Deep Neural Networks (DNNs) · Transformer Architecture
+                    (Encoders, Decoders, Self-Attention, Multi-Head Attention,
+                    Feed-Forward Networks) · Large Language Models ·
+                    Retrieval-Augmented Generation (RAG) · Pretraining ·
+                    Fine-Tuning · PyTorch
+                </p>
                 <h4 style={{ fontWeight: 'bold' }}>Frontend</h4>
-                <p>
-                    React.js, Typescript, Web Workers, IndexedDb, Redux,
-                    fabric.js, OpenCV.js, npm, webpack
-                </p>
+                <p>React · Next.js · JavaScript / TypeScript · HTML · CSS</p>
                 <h4 style={{ fontWeight: 'bold' }}>Backend</h4>
-                <p>
-                    C#, .NET, ASP.NET, Entity Framework, IdentityServer, SQL,
-                    Node.js
-                </p>
-                <h4 style={{ fontWeight: 'bold' }}>AWS</h4>
-                <p>S3, CloudFront, Lambda, IAM</p>
-                <h4 style={{ fontWeight: 'bold' }}>Azure</h4>
-                <p>AppServices, Application Insights, Key Vault</p>
-                <h4 style={{ fontWeight: 'bold' }}>Python</h4>
-                <p>FastAPI, pip, venv, OpenCV, numpy </p>
+                <p>.NET · ASP.NET · SQL</p>
+                <h4 style={{ fontWeight: 'bold' }}>Cloud</h4>
+                <p>AWS · Azure</p>
             </div>
         </div>
     </section>
